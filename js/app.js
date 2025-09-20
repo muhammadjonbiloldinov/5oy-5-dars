@@ -5,9 +5,9 @@ import { checkAuth } from "./check-auth.js";
 
 
 if (checkAuth()) {
-    elLoginLogoutBtn.innerText = "⬅️ Tizimdan chiqish";
+    elLoginLogoutBtn.innerText = "⬅ Tizimdan chiqish";
 } else {
-    elLoginLogoutBtn.innerText = "Tizimga kirish ➡️";
+    elLoginLogoutBtn.innerText = "Tizimga kirish ➡";
 }
 
 function init() {
